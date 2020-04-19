@@ -27,18 +27,21 @@ For Chromedriver, install its zip file from the internet corresponding to the ve
 you are using (Windows, macOS, Linux, etc)
 
 For packages like selenium, beautifulsoup, tkinter and requests open the terminal and type
-'''
+```
+
 pip install <package name>
 
-'''
+```
+
 repeat the process for all the packages and get the packages downloaded to your system
 
 
 Example:
-'''
+```
+
 pip install selenium
 
-'''
+```
 ### Process
 
 First using the selenium, beautifulsoup and Chromedriver, we need to scrap the database of all the students and 
@@ -49,12 +52,12 @@ Then using the ktinker, an amazing GUI builder in python, we created a GUI with 
 email account and password and the bllod group he is searching for and the button which calls the action_of_button function 
 to carryforward the further task.
 
-The function Action_of_button calls two functions search and send email.
+The function action_of_button() calls two functions search and send email.
 
-The function search opens the csv file and reads the csv and finds the email corresponding to the blood group input and returns the 
+The function search() opens the csv file and reads the csv and finds the email corresponding to the blood group input and returns the 
 list of these emails.
 
-The function send_mail takes the users email and password and the recipients' email list and mails them using the inbuilt module 
+The function send_mail() takes the users email and password and the recipients' email list and mails them using the inbuilt module 
 smtplib.
 
 
